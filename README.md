@@ -4,7 +4,7 @@ You can visit the original RGBDSLAM package for Kinect [here](https://github.com
 
 ### Step 1: Download the [install.sh](https://github.com/yzqin/rgbdslam/blob/master/install.sh) file
 
-`$ wget https://github.com/yzqin/rgbdslam/blob/master/install.sh`
+`$ wget https://raw.githubusercontent.com/yzqin/rgbdslam/master/install.sh`
 
 ### Step 2: Change the WORKSPACE in line 17 of [install.sh](https://github.com/yzqin/rgbdslam/blob/master/install.sh) to your own catkin workspace
 
