@@ -52,10 +52,7 @@ nice make -j4 install
 echo
 echo "Preparing catkin workspace for rgbdslam_v2"
 echo
-
-mkdir -p $WORKSPACE/src
 cd $WORKSPACE/src
-catkin_init_workspace
 catkin_make -C $WORKSPACE
 source $WORKSPACE/devel/setup.bash
 
